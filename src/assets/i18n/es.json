@@ -49,5 +49,6 @@
   "ANID": "Cuenta",
   "ENDDATE": "Fecha fin",
   "INTERESRATE": "% interés",
-  "ACCOUNTTYP": "Tipo de cuenta"
+  "ACCOUNTTYP": "Tipo de cuenta",
+  "ACCOUNTNUMBER": "Nº cuenta"
  }

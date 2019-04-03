@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { intRateMonthlyFunction } from '../../../shared/shared.module';
 
 @Component({
   selector: 'app-accounts-home',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountsHomeComponent implements OnInit {
 
-  constructor() { }
+ public intRateMonthly = intRateMonthlyFunction;
+
+ constructor() { }
 
   ngOnInit() {
   }
