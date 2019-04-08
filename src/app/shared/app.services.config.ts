@@ -13,5 +13,8 @@ export const SERVICE_CONFIG: Object = {
    },
   'movements':{
     'path': '/movements'
+   },
+  'files':{
+    'path': '/files'
    }
  };

@@ -3,3 +3,21 @@
     Ontimize web seed application home component
   </p>
 </div>
+<div fxLayout="row" layout-padding fxLayoutAlign="center center">
+<p>
+  Subida de archivos
+</p>
+</div>
+<!-- <div fxLayout="col" layout-padding fxLayoutAlign="center center">
+  <o-image attr="image2" data="../../../assets/images/casco.jpg"></o-image>
+</div>> -->
+<div fxLayout="col" layout-padding fxLayoutAlign="center center">
+  <o-form editable-detail="no" show-header="no" layout-direction="column">
+    <o-file-input attr="file" service="files" entity="upload" label="{{ 'INPUT.BUTTON.FILE' | oTranslate }} (edit mode)" read-only="no" required="yes" 
+    accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
+    (change)="onUploadFile($event)" additional-data="getFileData()" layout-padding></o-file-input>
+  </o-form>
+</div>
+
+
+
