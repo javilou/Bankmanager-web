@@ -5,7 +5,7 @@ import { CustomersRoutingModule } from "./customers-routing.module";
 import { CustomersHomeComponent } from "./customers-home/customers-home.component";
 import { CustomersDetailComponent } from "./customers-detail/customers-detail.component";
 import { CustomersNewComponent } from "./customers-new/customers-new.component";
-
+import { InvoicesNewComponent } from "./invoices-new/invoices-new.component";
 
 @NgModule({
   imports: [
@@ -16,7 +16,8 @@ import { CustomersNewComponent } from "./customers-new/customers-new.component";
   declarations: [
     CustomersHomeComponent,
     CustomersDetailComponent,
-    CustomersNewComponent
+    CustomersNewComponent,
+    InvoicesNewComponent
   ], 
   schemas : [CUSTOM_ELEMENTS_SCHEMA]
 })

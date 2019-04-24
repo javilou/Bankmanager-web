@@ -1,14 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { intRateMonthlyFunction } from '../../../shared/shared.module';
 
 @Component({
-  selector: 'app-customers-detail',
-  templateUrl: './customers-detail.component.html',
-  styleUrls: ['./customers-detail.component.scss']
+  selector: 'app-invoices-home',
+  templateUrl: './invoices-home.component.html',
+  styleUrls: ['./invoices-home.component.scss']
 })
-export class CustomersDetailComponent implements OnInit {
-
-  public intRateMonthly = intRateMonthlyFunction;
+export class InvoicesHomeComponent implements OnInit {
 
   constructor() { }
 

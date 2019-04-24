@@ -9,5 +9,6 @@ export const MENU_CONFIG: MenuRootItem[] = [
   { id: 'employees', name: 'EMPLOYEES', icon: 'business_center', route: '/main/employees'},
   { id: 'branches', name: 'BRANCHES', icon: 'account_balance', route: '/main/branches' }, 
   { id: 'accounts', name: 'ACCOUNTS', icon: 'credit_card', route: '/main/accounts' },
+  { id: 'invoices', name: 'INVOICES', icon: 'euro_symbol', route: '/main/invoices'},
   { id: 'logout', name: 'LOGOUT', route: '/login', icon: 'power_settings_new', confirm: 'yes' }
 ];

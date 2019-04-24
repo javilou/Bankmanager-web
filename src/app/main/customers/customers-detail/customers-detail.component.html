@@ -52,6 +52,40 @@
           </o-table-column-calculated>
         </o-table>
       </mat-tab>
+      <mat-tab label="{{ 'INVOICES' | oTranslate }}">
+      <!--  <o-form-layout-manager attr="invoicesTable" title="INVOICES" separator=" " mode="tab" service="invoices" entity="invoices"> -->
+        <o-table fxFlex attr="invoicesTable" service="invoices" entity="invoices" keys="INVOICESID" parent-keys="CUSTOMERID" 
+        insert-form-route="invoicesnew" controls="true" refresh-button="true" delete-button="true" detail-mode="none"
+        show-header-navigation="yes" query-rows="5" columns="INVOICESID;INVOICE_NAME;AMOUNT;INVOICE_FILE;CUSTOMERID" 
+        visible-columns="INVOICE_NAME;INVOICE_FILE;AMOUNT" columns-visibility-button="true" edition-mode="click" 
+        pagination-controls="yes" pageable="no">
+        
+          <o-table-column attr="INVOICE_NAME" title="INVOICE'S NAME">
+            <o-table-cell-editor-text (editionStarted)="editionStarted($event)" 
+            (editionCancelled)="editionCancelled($event)" (editionCommitted)="editionCommitted($event)"></o-table-cell-editor-text>
+          </o-table-column>
+          <o-table-column attr="INVOICE_FILE" title="INVOICE'S FILE">
+            <o-table-cell-editor-text (editionStarted)="editionStarted($event)" 
+            (editionCancelled)="editionCancelled($event)" (editionCommitted)="editionCommitted($event)"></o-table-cell-editor-text>
+          </o-table-column>
+          <o-table-column attr="AMOUNT" title="AMOUNT" editable="yes" type="currency" currency-symbol="€" sql-type="DOUBLE"
+          currency-symbol-position="right">
+            <o-table-cell-editor-real (editionStarted)="editionStarted($event)" 
+            (editionCancelled)="editionCancelled($event)" (editionCommitted)="editionCommitted($event)"></o-table-cell-editor-real>
+          </o-table-column>
+          <o-table-context-menu [context-menu]="myContextMenu" insert="yes" edit="yes" view-details="no"></o-table-context-menu>
+        </o-table>
+      <!-- <o-table-insertable-row columns="INVOICESID;INVOICE_NAME;AMOUNT" required-columns="INVOICE_NAME;AMOUNT"></o-table-insertable-row> 
+           
+        </o-table>
+       </o-form-layout-manager> -->
+        <o-context-menu #myContextMenu>
+            <o-context-menu-item icon="face" label="Item 1"></o-context-menu-item>
+            <o-context-menu-item icon="star_rate" label="Item 2" enabled="no"></o-context-menu-item>
+            <o-context-menu-item label="Item 3"></o-context-menu-item>
+        </o-context-menu>
+        <!-- </o-form-layout-manager> --> 
+      </mat-tab>
     </mat-tab-group>
   </o-row>
 </o-form>

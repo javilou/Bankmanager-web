@@ -56,5 +56,9 @@
   "DATE_": "Date",
   "CONCEPT": "Concept",
   "MOVEMENT": "Movement",
-  "MOVEMENTTYPEID": "Movement type"
+  "MOVEMENTTYPEID": "Movement type",
+  "INVOICES": "Invoices",
+  "INVOICE_NAME": "Invoice's name",
+  "INVOICE_FILE": "Invoice's file",
+  "AMOUNT": "Amount"
  }

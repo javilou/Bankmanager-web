@@ -57,5 +57,9 @@
   "DATE_": "Fecha",
   "CONCEPT": "Concepto",
   "MOVEMENT": "Movimiento",
-  "MOVEMENTTYPEID": "Tipo movimiento"
+  "MOVEMENTTYPEID": "Tipo movimiento",
+  "INVOICES": "Gastos",
+  "INVOICE_NAME": "Nombre del gasto",
+  "INVOICE_FILE": "Factura",
+  "AMOUNT": "Importe"
  }

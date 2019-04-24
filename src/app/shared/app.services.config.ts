@@ -16,5 +16,9 @@ export const SERVICE_CONFIG: Object = {
    },
   'files':{
     'path': '/files'
+   },
+   'invoices': {
+     'path': '/invoices'
    }
+
  };
