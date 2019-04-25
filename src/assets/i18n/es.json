@@ -61,5 +61,6 @@
   "INVOICES": "Gastos",
   "INVOICE_NAME": "Nombre del gasto",
   "INVOICE_FILE": "Factura",
-  "AMOUNT": "Importe"
+  "AMOUNT": "Importe",
+  "INPUT_FILE": "Factura"
  }

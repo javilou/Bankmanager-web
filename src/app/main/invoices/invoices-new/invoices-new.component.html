@@ -6,9 +6,14 @@
     </o-row>
     <o-row>
       <o-text-input class="input-padding" attr="INVOICE_NAME" label="INVOICE_NAME" sql-type="STRING" fxFlex="40" clear-button="yes"></o-text-input>
-      <o-text-input class="input-padding" attr="INVOICE_FILE" label="INVOICE_FILE" fxFlex="40" sql-type="STRING" clear-button="yes"></o-text-input>
+  <!-- <o-text-input class="input-padding" attr="INVOICE_FILE" label="INVOICE_FILE" fxFlex="40" sql-type="STRING" clear-button="yes"></o-text-input> -->
       <o-currency-input class="input-padding" attr="AMOUNT" label="AMOUNT" min-decimal-digits="2" max-decimal-digits="2"
       sql-type="DOUBLE" clear-button="yes"></o-currency-input>
+    </o-row>
+    <o-row>
+      <o-file-input attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
+      read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
+      (change)="onUploadFile($event)" layout-padding></o-file-input>
     </o-row>
   </o-column>
 </o-form> 

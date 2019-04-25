@@ -1,0 +1,550 @@
+[33mcommit 5e27ff19adf7d3c83439dad81fa075675d944389[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Wed Apr 24 17:14:23 2019 +0200
+
+    Se pueden añadir gastos y se pueden mostrar sin ningun fallo
+
+[33mcommit f94a1734819e61c3c37c9a62bd06b40fc18a8bed[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Mon Apr 8 15:24:29 2019 +0200
+
+    Todo listo, el programa admite files y los muestra por consola
+
+[33mcommit d1bee1cfa6622c8ad70b313f924d7604737af92a[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Thu Apr 4 12:06:55 2019 +0200
+
+    Tutorial acabado y funcionando perfectamente
+
+[33mcommit 4a4c5ac8770690be7b5bdefd31ed4c5933e5c60c[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Wed Apr 3 11:15:32 2019 +0200
+
+    todo correcto hasta el 18 excepto el metodo initialize() que estaba deprecated y fue eliminado
+
+[33mcommit 4225aec87ab69c5b91f34fe3130168f3360446a1[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Wed Apr 3 09:29:32 2019 +0200
+
+    Todo correcto hasta el punto 17 (No incluido)
+
+[33mcommit 02ef65a7288cf7fd9b0cd26f1c4a00af1bf22b0a[m
+Author: Rodrigo <rodrigobreton98@gmail.com>
+Date:   Wed Apr 3 08:52:53 2019 +0200
+
+    todo perfecto hasta el 16
+
+[33mcommit ba2cde35cb0a65cb265c6e1901d59b9c25bd99dd[m
+Merge: d95b974 fedf4bc
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Feb 21 15:31:50 2019 +0100
+
+    Merge pull request #13 from OntimizeWeb/4.x.x
+    
+    4.x.x
+
+[33mcommit fedf4bcb375ac46b782cb2e1b70f0ad4b39debaa[m[33m ([m[1;33mtag: 4.0.0[m[33m, [m[1;31morigin/4.x.x[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Feb 21 15:30:10 2019 +0100
+
+    Update package-lock
+
+[33mcommit c584437a14cad473690d4e345b49b63b371598df[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Feb 21 15:26:06 2019 +0100
+
+    Update versions
+
+[33mcommit d95b974c149586326c067703178fb8c827ef9a2d[m[33m ([m[1;33mtag: 4.0.0-rc.1[m[33m)[m
+Merge: b3bccfd 5960893
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Fri Feb 1 09:14:38 2019 +0100
+
+    Merge pull request #12 from OntimizeWeb/4.x.x
+    
+    Updating versions
+
+[33mcommit 5960893de7bafe9cdceca886cfb063c939968422[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Feb 1 09:11:59 2019 +0100
+
+    Updating versions
+
+[33mcommit b3bccfddc4b125636a1398a9ccc42428db912bb9[m
+Merge: df64e8d 4e59145
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Jan 31 17:39:33 2019 +0100
+
+    Merge pull request #11 from OntimizeWeb/4.x.x
+    
+    4.x.x
+
+[33mcommit 4e5914573a964a08a575f2b99363d0e20ca21191[m
+Merge: 946122e df64e8d
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Jan 31 17:39:26 2019 +0100
+
+    Merge branch 'master' into 4.x.x
+
+[33mcommit 946122e034c621438a93010c77eccfac27ee7eec[m[33m ([m[1;33mtag: 4.0.0-rc.0[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Nov 16 12:12:55 2018 +0100
+
+    Update config file
+
+[33mcommit 8fa2e55941a21d8b03f7fad4652ec5cfecd80292[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Nov 16 12:12:04 2018 +0100
+
+    Update versions
+
+[33mcommit ebd89d6903809cf8a6ac5eea8de56342ad118616[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 29 16:59:09 2018 +0100
+
+    Update package.json and adding package-lock.json
+
+[33mcommit 03f696cba8c6f35abbaa4247d0f3cfc0c6e09e9d[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 29 16:58:43 2018 +0100
+
+    Update main.ts
+
+[33mcommit 25e359076f2f74bd00cfade7552fc0884ba9a629[m
+Merge: bbca03d cd0c90b
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 29 09:42:13 2018 +0100
+
+    Merge branch '4.0.0-rc.0' of https://github.com/OntimizeWeb/ontimize-web-ngx-jee-seed into 4.0.0-rc.0
+
+[33mcommit bbca03daa5855bf8bd3e21eeab089910c5679e38[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 29 09:41:25 2018 +0100
+
+    Updating configuration files
+
+[33mcommit cd0c90b4b9f05d67daf9c211a2d9e74be6d1ac63[m
+Author: Patricia Martinez <patricia.martinez@imatia.com>
+Date:   Mon Oct 22 11:17:14 2018 +0200
+
+    Import hammerjs
+
+[33mcommit 3ec45b2c219ee48ad1cc98fa6a9bae2ba2ff2070[m
+Author: Patricia Martinez <patricia.martinez@imatia.com>
+Date:   Fri Oct 19 12:50:10 2018 +0200
+
+    Update package
+
+[33mcommit df64e8d1681a80cd1e84cf92a792c874b0ce7727[m[33m ([m[1;31morigin/3.x.x[m[33m)[m
+Merge: 7dbfd0b e68291f
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 5 08:41:37 2018 +0200
+
+    Merge pull request #10 from OntimizeWeb/develop
+    
+    Develop
+
+[33mcommit e68291f470e6ed75dc2138a1d0eaf0a38827fd10[m
+Merge: 122b86a 7dbfd0b
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 5 08:41:28 2018 +0200
+
+    Merge branch 'master' into develop
+
+[33mcommit 122b86a6e6d505757514d9e1740f44d79806b181[m[33m ([m[1;33mtag: 3.1.1[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 5 08:39:36 2018 +0200
+
+    Update versions
+
+[33mcommit 1c0ba77908ea701964f83c3915e5adc2034c36b8[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Sep 4 16:06:48 2018 +0200
+
+    Using Angular 6 and ontimize-web-ngx 4.0.0-rc.0
+
+[33mcommit c8b2fdee27675c3bdccf7dbf2ee54ee1a50ddbe3[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Sep 4 16:06:38 2018 +0200
+
+    Using Angular 6 and ontimize-web-ngx 4.0.0-rc.0
+
+[33mcommit 7dbfd0b82c63f3983c60da44539a50919951b9bb[m
+Author: faustinolage <faustino.lage@imatia.com>
+Date:   Thu Aug 2 18:34:27 2018 +0200
+
+    Change version ontimize-web-ngx
+
+[33mcommit 765612953ac6305ca96e8b9ff9807f25ec315a75[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Jul 4 08:53:42 2018 +0200
+
+    Update ontimize-web-ngx-tools
+
+[33mcommit dbedf6feef15511a6c303df9c1e575c8a3362276[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Jul 4 08:53:31 2018 +0200
+
+    Update ontimize-web-ngx-tools
+
+[33mcommit 49101f2975726f475a037b6e6755fc2916438564[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 2 14:52:23 2018 +0200
+
+    Update version
+
+[33mcommit d5ccae26b68348a9b545a0dbbdea2dd3c6b0d6d4[m
+Merge: 0c3b950 ea6a22a
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 2 14:51:47 2018 +0200
+
+    Merge pull request #9 from OntimizeWeb/3.0.1
+    
+    3.0.1
+
+[33mcommit ea6a22a0468e2e54281e81aa9b996a4ae08b1cbf[m[33m ([m[1;33mtag: 3.0.1[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 2 14:47:01 2018 +0200
+
+    Update versions
+
+[33mcommit 30a5220da0727c1c57f9997c53e2cddc208c95bc[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 2 14:46:45 2018 +0200
+
+    Update login component
+
+[33mcommit abbec5cfd12e44603d9b548bfe27afe245dc56b3[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 2 14:46:25 2018 +0200
+
+    Update angular-cli.json
+
+[33mcommit 31563e41f378af54dba8178d400ef8f79842dc2c[m
+Author: Manuel cid <manuel.cid@imatia.com>
+Date:   Fri Jun 22 12:56:38 2018 +0200
+
+    Remove unnused styles
+
+[33mcommit 1221b563414bc986aad70b9ce8975f6c859a9d00[m
+Author: Manuel cid <manuel.cid@imatia.com>
+Date:   Fri Jun 22 10:43:41 2018 +0200
+
+    Format code
+
+[33mcommit 215c36dcf119f002185a36c997c3396300505c32[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:34:57 2018 +0200
+
+    Update version
+
+[33mcommit 0c3b950239496333ca14e56de12ce2280325bca7[m
+Merge: 4e8d0a4 e4cf1ab
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:34:17 2018 +0200
+
+    Merge pull request #8 from OntimizeWeb/3.0.0
+    
+    3.0.0
+
+[33mcommit e4cf1ab26402aae7cd903a9b6471e723275fe8be[m[33m ([m[1;33mtag: 3.0.0[m[33m)[m
+Merge: bd84b9b 4e8d0a4
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:33:32 2018 +0200
+
+    Update dependencies
+
+[33mcommit bd84b9bff8e23094b583f96eced7a70c732e755c[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:32:27 2018 +0200
+
+    Update dependencies
+
+[33mcommit 11f1adb42b5e2a35fc397e5516448867a8fe5401[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:31:56 2018 +0200
+
+    Update app
+
+[33mcommit c3110eb83b5fb453bb8c6c75c2c9a1565d101768[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu May 3 08:31:03 2018 +0200
+
+    Update configuration files
+
+[33mcommit 4e8d0a40966756f3e5954e6a6c45fdffbac36daa[m
+Merge: c99cf12 6281d88
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Mon Apr 9 18:06:29 2018 +0200
+
+    Merge pull request #7 from OntimizeWeb/2.0.3
+    
+    2.0.3
+
+[33mcommit 6281d88d7a1ef59d6d40424e2c6c8853fb0e36e3[m[33m ([m[1;33mtag: 2.0.3[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Apr 9 17:55:44 2018 +0200
+
+    Updating dependencies
+
+[33mcommit b5fe11c8feb959feb0f913ee08a31c87ad2ed16d[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Apr 9 17:55:33 2018 +0200
+
+    Updating menu configuration
+
+[33mcommit bd194d32b80b1c98d4577779eadc955a884c02ad[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Apr 3 17:57:40 2018 +0200
+
+    Updating dependencies
+
+[33mcommit b065a4dd405720af3c614c0c2eb93e33fc24f721[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Apr 3 17:56:49 2018 +0200
+
+    Updating app configuration
+
+[33mcommit 2635b76931934006d8b87b7d1dc4c1097be9533f[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Apr 3 17:56:10 2018 +0200
+
+    Updating aot configuration
+
+[33mcommit 3b7c9aaf8577ddb9f578a9d75d030128fe86b4a3[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Apr 3 14:54:43 2018 +0200
+
+    Update app
+
+[33mcommit 3117539ec8e83b5f8188335f2b67a347942b3766[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Mar 15 12:50:34 2018 +0100
+
+    Update version
+
+[33mcommit c99cf1280562b8dc59f70d6590372b573eba425b[m
+Merge: b8542ec b01c5a0
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Mar 15 12:49:56 2018 +0100
+
+    Merge pull request #6 from OntimizeWeb/2.0.2
+    
+    2.0.2
+
+[33mcommit b01c5a0b2c53131a6c093e405f2e1c2edee96b49[m[33m ([m[1;33mtag: 2.0.2[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Mar 15 12:46:37 2018 +0100
+
+    Updating app
+
+[33mcommit 6b76cfb6a6f6c50f7ac71e3b04f4ed05b0a1c972[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 16:27:58 2017 +0200
+
+    Updating version
+
+[33mcommit b8542ec4b83b5c28264a5c488b6f8d77a17c054c[m
+Merge: 7cce24e c5fc4c2
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 16:25:45 2017 +0200
+
+    Merge pull request #5 from OntimizeWeb/2.0.1
+    
+    2.0.1
+
+[33mcommit c5fc4c2099b9d90d07af1435884c252009332f47[m[33m ([m[1;33mtag: 2.0.1[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 16:24:27 2017 +0200
+
+    Updating configuration file
+
+[33mcommit 7e5e01a5efd41d80a033d5a396f2266b39755a58[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 15:51:24 2017 +0200
+
+    Deleting unnecesary file
+
+[33mcommit 78f2ececcbb963bbc1d278603f894e1baaeea5c9[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 12:36:57 2017 +0200
+
+    Updating package.json
+
+[33mcommit 0e7af3229615e012c94142021dd5f0186f8a74f6[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 12:22:30 2017 +0200
+
+    Updating routes
+
+[33mcommit 4d497fd15cd4f6b29f45a93fee9eeacd0f99e9f5[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 12:22:03 2017 +0200
+
+    Updating config files
+
+[33mcommit a6a57cca9b2345b9d2e97979326227dc8b7402da[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 08:57:14 2017 +0200
+
+    Update config files
+
+[33mcommit 19d0fd1d903263e462e519077f9063e9e7353f88[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Mon Oct 9 08:56:53 2017 +0200
+
+    Updating app routing
+
+[33mcommit b5023403484f2f62989ad19ce4f22fcf5fe4557e[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 16:28:44 2017 +0200
+
+    Update gulpfile
+
+[33mcommit fa93b3df6f9003faf28596453239c232e916022b[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 12:17:43 2017 +0200
+
+    Updating config files
+
+[33mcommit 80e5022961bafc84a5ea0c4c2c34b88d356813e5[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 11:25:24 2017 +0200
+
+    Update config files
+
+[33mcommit 269b2d223b00a5962976ec1a32e347121a58e4c3[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 11:24:36 2017 +0200
+
+    Update tslint
+
+[33mcommit 4c299af96c38721a2f9a3853c6ebe2f03fa86493[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 11:23:45 2017 +0200
+
+    Updating modules definitions
+
+[33mcommit 26bdb3cced6c613bb69e3aae76d2a0c3591fcffb[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Fri Oct 6 11:22:36 2017 +0200
+
+    Updating configuration files
+
+[33mcommit 7cce24e89f244a59fa12a81f3fc48895a75a0ab6[m
+Merge: d2cc215 5a77b5f
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Sep 28 12:21:52 2017 +0200
+
+    Merge pull request #4 from OntimizeWeb/2.0.0
+    
+    2.0.0
+
+[33mcommit 5a77b5ff25f43f0388983fa919423b43e215991e[m[33m ([m[1;33mtag: 2.0.0[m[33m)[m
+Merge: 97cd09e d2cc215
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Sep 27 17:52:58 2017 +0200
+
+    Merge branch '2.0.0' of https://github.com/OntimizeWeb/ontimize-web-ngx-jee-seed into 2.0.0
+
+[33mcommit 97cd09ea42e865c27c707851657095414b130dbf[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Sep 27 17:51:56 2017 +0200
+
+    Update for AoT
+
+[33mcommit 88f22bfb44d38c7ea9cba607e5a0308be6de2bf4[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Sep 27 17:09:02 2017 +0200
+
+    Adapting to new ontimize-web-ngx versions
+
+[33mcommit d2cc215d7b8ce1a69769258325d51af609d714e3[m
+Merge: 9fa2f9d 8b98fe7
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Aug 31 15:29:51 2017 +0200
+
+    Merge pull request #3 from OntimizeWeb/2.0.0-rc.2
+    
+    Updating version
+
+[33mcommit 8b98fe7a10d4522f0e284f5d86a1be318bc50ef9[m[33m ([m[1;33mtag: 2.0.0-rc.2[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Aug 31 15:25:46 2017 +0200
+
+    Updating version
+
+[33mcommit 9fa2f9d29ab5217b7fd7197b1faa71a52ec7ede3[m[33m ([m[1;33mtag: 2.0.0-rc.1[m[33m)[m
+Merge: 12c3c68 9f6d476
+Author: gonzalo-martinez-imt <gonzalo.martinez@imatia.com>
+Date:   Thu Aug 31 11:40:16 2017 +0200
+
+    Merge pull request #2 from OntimizeWeb/2.0.0-rc.1
+    
+    Updating version
+
+[33mcommit 9f6d4761b48703f8b7c88f91eb734b03888f2614[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Aug 31 11:39:35 2017 +0200
+
+    Updating version
+
+[33mcommit 12c3c68eee341a88512eac307fcb3c397abaf991[m[33m ([m[1;33mtag: 2.0.0-rc.0[m[33m)[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Thu Aug 31 11:38:12 2017 +0200
+
+    Updating version
+
+[33mcommit cf73efb0e4af67681a993477c1788a5dc5f33a4d[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Jul 19 10:23:34 2017 +0200
+
+    Updating app
+
+[33mcommit de84de9700707c23ac130a39787499e6149b7eb1[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Wed Jul 19 10:13:14 2017 +0200
+
+    Updating app
+
+[33mcommit a42b31af0d80229741089225399aa5738c7116c1[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Jul 18 09:56:32 2017 +0200
+
+    Updating app
+
+[33mcommit fd88dfae803461fb108fedb9592c4051017ccea2[m
+Author: Gonzalo Martínez <gonzalo.martinez@imatia.com>
+Date:   Tue Jul 18 09:46:35 2017 +0200
+
+    Updating app
+
+[33mcommit 3881486bd3b295b45e1daafa643456bd7b1d65ba[m
+Author: gonzalo.martinez <gonzalo.martinez@imatia.com>
+Date:   Tue Jul 18 08:36:59 2017 +0200
+
+    Updating app
+
+[33mcommit 6c4296d7273555dcff7edcdd68155dce0c7eefc0[m
+Author: Gonzalo Martínez <gonzalo.martinez@imatia.com>
+Date:   Mon Jul 17 17:21:46 2017 +0200
+
+    Updating version
+
+[33mcommit f82bc333abe91382a56378cdcb209e5ac46ee038[m
+Author: Gonzalo Martínez <gonzalo.martinez@imatia.com>
+Date:   Tue Jun 6 13:14:14 2017 +0200
+
+    Adapting to ontimize-web-ng2@2.0.0-rc.1
+
+[33mcommit 4e72427e96678bb91a5bb850471c30b4300747ea[m[33m ([m[1;33mtag: 1.2.3[m[33m)[m
+Author: Gonzalo Martínez <gonzalo.martinez@imatia.com>
+Date:   Tue Jun 6 11:28:19 2017 +0200
+
+    Updating version
+
+[33mcommit 7171d2bd9910aafe3f9606b159c5e564b0898d53[m
+Author: Gonzalo Martínez <gonzalo.martinez@imatia.com>
+Date:   Tue Apr 18 16:26:47 2017 +0200
+
+    Initial version
