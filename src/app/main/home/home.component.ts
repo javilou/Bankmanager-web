@@ -14,21 +14,6 @@ export class HomeComponent implements OnInit {
   ) {
   }
 
-  editionStarted(arg: any) {
-    console.log('editionStarted');
-    console.log(arg);
-  }
-
-  editionCancelled(arg: any) {
-    console.log('editionCancelled');
-    console.log(arg);
-  }
-
-  editionCommitted(arg: any) {
-    console.log('editionCommitted');
-    console.log(arg);
-  }
-
   onUploadFile(event) {
     if (event.target.files.lenght == 0) {
       console.log("----- NO SE HA SELECCIONADO NINGUN ARCHIVO -----");
