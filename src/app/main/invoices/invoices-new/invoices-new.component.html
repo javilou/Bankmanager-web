@@ -1,4 +1,4 @@
-<o-form service="invoices" entity="invoices" keys="INVOICESID" headerMode="I" >
+<invoices-new-form service="invoices" entity="invoices" keys="INVOICESID" headerMode="I" >
   <o-column tittle-label="AÑADIR GASTO" fxFlex>
     <o-row>
       <o-list-picker attr="CUSTOMERID" label="CUSTOMER" entity="customer" service="customers" value-column="CUSTOMERID"
@@ -16,4 +16,4 @@
       (change)="onUploadFile($event)" [additional-data]=getData()    ></o-file-input>
     </o-row>
   </o-column>
-</o-form> 
+</invoices-new-form> 

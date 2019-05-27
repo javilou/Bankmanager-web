@@ -1,10 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { OFormComponent, OntimizeService, OListPickerComponent, OTableComponent, ORealPipe } from 'ontimize-web-ngx';
 
 @Component({
   selector: 'app-invoices-new',
   templateUrl: './invoices-new.component.html',
-  styleUrls: ['./invoices-new.component.scss']
+  styleUrls: ['./invoices-new.component.scss'],
+  encapsulation: ViewEncapsulation.None,
+  host: {
+    '[class.invoices-new]': 'true'
+  }
 })
 export class InvoicesNewComponent implements OnInit {
 
