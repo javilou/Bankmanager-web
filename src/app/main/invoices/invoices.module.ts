@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OntimizeWebModule } from "ontimize-web-ngx";
-import { InvoicesRoutingModule } from './invoices-routing.module';
+import { InvoicesRoutingModule, INVOICES_MODULE_DECLARATIONS } from './invoices-routing.module';
 import { InvoicesHomeComponent } from './invoices-home/invoices-home.component';
 import { InvoicesNewComponent } from './invoices-new/invoices-new.component';
 
@@ -13,7 +13,8 @@ import { InvoicesNewComponent } from './invoices-new/invoices-new.component';
   ],
   declarations: [
     InvoicesHomeComponent,
-    InvoicesNewComponent
+    InvoicesNewComponent,
+    INVOICES_MODULE_DECLARATIONS
   ]
 })
 export class InvoicesModule { }

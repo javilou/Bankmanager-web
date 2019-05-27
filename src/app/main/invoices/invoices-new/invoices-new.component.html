@@ -1,7 +1,7 @@
 <o-form service="invoices" entity="invoices" keys="INVOICESID" headerMode="I" >
   <o-column tittle-label="AÑADIR GASTO" fxFlex>
     <o-row>
-      <o-list-picker attr="CUSTOMERID" label="CUSTOMER" entity="customer" service="customers" value-column="CUSTOMERID" 
+      <o-list-picker attr="CUSTOMERID" label="CUSTOMER" entity="customer" service="customers" value-column="CUSTOMERID"
       columns="CUSTOMERID;ID;PHOTO;NAME;SURNAME;STARTDATE;EMAIL" visible-columns="NAME;SURNAME" read-only="no" required="yes" fxFlex="40"></o-list-picker>
     </o-row>
     <o-row>
@@ -13,7 +13,7 @@
     <o-row>
       <o-file-input attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
       read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
-      (change)="onUploadFile($event)" layout-padding></o-file-input>
+      (change)="onUploadFile($event)" [additional-data]=getData()    ></o-file-input>
     </o-row>
   </o-column>
 </o-form> 

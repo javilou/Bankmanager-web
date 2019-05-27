@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OFormComponent, OntimizeService, OListPickerComponent, OTableComponent, ORealPipe } from 'ontimize-web-ngx';
 
 @Component({
   selector: 'app-invoices-new',
@@ -8,6 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class InvoicesNewComponent implements OnInit {
 
   constructor() { }
+
+  getData() {
+
+  }
 
   onUploadFile(event) {
     if (event.target.files.lenght == 0) {
@@ -26,6 +31,7 @@ export class InvoicesNewComponent implements OnInit {
         'Type: ' + type + "\n" +
         'Last-Modified-Date: ' + modifiedDate + "\n" +
         'Size: ' + Math.round(size / 1024) + " KB");
+        
     }
   }
 
