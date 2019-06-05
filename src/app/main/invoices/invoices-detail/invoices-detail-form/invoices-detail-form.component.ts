@@ -2,10 +2,11 @@ import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component,
 import { dataServiceFactory, OFormComponent, OntimizeService } from 'ontimize-web-ngx';
 import { ActivatedRoute, Router } from '@angular/router';
 
+
 @Component({
-  selector: 'invoices-new-form',
-  templateUrl: './invoices-new-form.component.html',
-  styleUrls: ['./invoices-new-form.component.scss'],
+  selector: 'app-invoices-detail-form',
+  templateUrl: './invoices-detail-form.component.html',
+  styleUrls: ['./invoices-detail-form.component.scss'],
   providers: [
     {
       provide: OntimizeService,
@@ -13,18 +14,18 @@ import { ActivatedRoute, Router } from '@angular/router';
       deps: [Injector]
     }, {
       provide: OFormComponent,
-      useExisting: forwardRef(() => InvoicesFormComponent)
+      useExisting: forwardRef(() => InvoicesDetailFormComponent)
     }
   ],
   inputs: OFormComponent.DEFAULT_INPUTS_O_FORM,
   outputs: OFormComponent.DEFAULT_OUTPUTS_O_FORM,
   encapsulation: ViewEncapsulation.None,
   host: {
-    '[class.invoices-form]': 'true',
+    '[class.invoices-detail]': 'true',
     '[class.fill]': 'layoutFill'
-  }
+  },
 })
-export class InvoicesFormComponent extends OFormComponent {
+export class InvoicesDetailFormComponent extends OFormComponent {
   protected recaptchaResponseToken: string;
   invoiceId: any;
   constructor(
@@ -34,18 +35,7 @@ export class InvoicesFormComponent extends OFormComponent {
       super(_router, _actRoute,_zone, cd, injector,elRef);
       this.recaptchaResponseToken = undefined;
       this.invoiceId = null;
-  }
-
-  onCompleteFile(event) {
-
-    console.log("Ha entrado en onCompleteFile");
-    //this.setFieldValue("ATTR_NAME", evet.)
-    return {test: "Se ha subido el archivo"};
-  }
-
-  getJohnDoe() {
-    return 'John Doe';
-  }
+    }
 
   onUploadFile(event) {
     if (event.target.files.lenght == 0) {
