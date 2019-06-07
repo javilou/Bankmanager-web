@@ -15,7 +15,6 @@
       <o-file-input attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
       read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
       (change)="onUploadFile($event)" additional-data="prueba"></o-file-input>
-      <!--<app-details-o-file-input></app-details-o-file-input>-->
     </o-row>
     <o-row>
       <o-list-picker attr="INVOICESTYPEID" class="input-padding" fxFlex="20" service="invoices" 
