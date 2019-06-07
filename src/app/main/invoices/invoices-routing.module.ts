@@ -13,7 +13,7 @@ export const INVOICES_MODULE_DECLARATIONS = [
   InvoicesFormComponent,
   InvoicesHomeFormComponent,
   InvoicesDetailComponent,
-  InvoicesDetailFormComponent
+  InvoicesDetailFormComponent,
 ];
 
 const routes: Routes = [{
@@ -22,7 +22,7 @@ const routes: Routes = [{
 },
 {
   path: 'new',
-  component: InvoicesDetailComponent
+  component: InvoicesNewComponent
 },
 {
   path: ':INVOICESID',

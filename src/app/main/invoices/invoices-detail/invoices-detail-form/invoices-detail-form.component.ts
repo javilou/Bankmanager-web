@@ -1,6 +1,8 @@
-import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation} from '@angular/core';
+import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation, ViewChild } from '@angular/core';
 import { dataServiceFactory, OFormComponent, OntimizeService } from 'ontimize-web-ngx';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, ChildActivationEnd } from '@angular/router';
+import { OFileInputComponent } from 'ontimize-web-ngx/ontimize/components/input/file-input/o-file-input.component';
+
 
 
 @Component({
@@ -27,6 +29,9 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class InvoicesDetailFormComponent extends OFormComponent {
   protected recaptchaResponseToken: string;
+
+  @ViewChild(OFileInputComponent) child;
+
   invoiceId: any;
   constructor(
     _actRoute: ActivatedRoute, _zone: NgZone,
@@ -58,6 +63,11 @@ export class InvoicesDetailFormComponent extends OFormComponent {
       }
       this.invoiceId = this.getFieldValue("INVOICESID");
       console.log("invice id: " + this.invoiceId);
+
+      this.child.uploader.data = {invoiceId: this.invoiceId};
+      
+
+
   }
 
 }

@@ -61,5 +61,6 @@
   "INVOICE_NAME": "Invoice's name",
   "INVOICE_FILE": "Invoice's file",
   "AMOUNT": "Amount",
-  "INPUT_FILE": "Amount file"
+  "INPUT_FILE": "Amount file",
+  "INVOICE_FILE_ID": "Invoice file ID"
  }

@@ -8,7 +8,6 @@ import { InvoicesHomeFormComponent } from './invoices-home/invoices-home-form/in
 import { InvoicesDetailComponent } from './invoices-detail/invoices-detail.component';
 import { InvoicesDetailFormComponent } from './invoices-detail/invoices-detail-form/invoices-detail-form.component';
 
-
 @NgModule({
   imports: [
     CommonModule,
@@ -21,7 +20,7 @@ import { InvoicesDetailFormComponent } from './invoices-detail/invoices-detail-f
     INVOICES_MODULE_DECLARATIONS,
     InvoicesHomeFormComponent,
     InvoicesDetailComponent,
-    InvoicesDetailFormComponent
+    InvoicesDetailFormComponent,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
