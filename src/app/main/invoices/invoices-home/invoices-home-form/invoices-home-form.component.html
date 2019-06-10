@@ -1,13 +1,13 @@
 <o-table fxFlex attr="invoicesTable" service="invoices" entity="invoices" keys="INVOICESID" 
   insert-button="yes" controls="true" refresh-button="true" delete-button="true"
-  show-header-navigation="yes" query-rows="20" columns="INVOICESID;INVOICE_NAME;AMOUNT;INVOICE_FILE_ID;CUSTOMERID,INVOICESTYPEID" 
+  show-header-navigation="yes" query-rows="20" columns="INVOICESID;INVOICE_NAME;AMOUNT;INVOICE_FILE_URL;CUSTOMERID,INVOICESTYPEID" 
   visible-columns="INVOICE_NAME;INVOICE_FILE_ID;AMOUNT" columns-visibility-button="true"  
   pagination-controls="yes" pageable="no">
     <o-table-column attr="INVOICE_NAME" title="INVOICE_NAME">
       <!-- <o-table-cell-editor-text (editionStarted)="editionStarted($event)" 
       (editionCancelled)="editionCancelled($event)" (editionCommitted)="editionCommitted($event)"></o-table-cell-editor-text> -->
     </o-table-column>
-    <o-table-column attr="INVOICE_FILE_ID" title="INVOICE_FILE_ID">
+    <o-table-column attr="INVOICE_FILE_URL" title="INVOICE_FILE_URL">
       <!-- <o-table-cell-editor-text (editionStarted)="editionStarted($event)" 
       (editionCancelled)="editionCancelled($event)" (editionCommitted)="editionCommitted($event)"></o-table-cell-editor-text> -->
     </o-table-column>

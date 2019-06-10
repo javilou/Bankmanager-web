@@ -1,24 +1,24 @@
 <o-column tittle-label="EDITAR GASTO" fxFlex>
     <o-row>
-      <o-integer-input attr="INVOICESID" label="INVOICESID"  service="invoices" entity="invoices"
-      read-only="yes" min="0" max="10"></o-integer-input>
-      <o-list-picker attr="CUSTOMERID" label="CUSTOMER" entity="customer" service="customers" value-column="CUSTOMERID"
-      columns="CUSTOMERID;ID;PHOTO;NAME;SURNAME;STARTDATE;EMAIL" visible-columns="NAME;SURNAME" read-only="no" required="yes" fxFlex="40"></o-list-picker>
+      <o-integer-input class="input-padding" attr="INVOICESID" label="INVOICESID"  service="invoices" entity="invoices"
+      read-only="yes" min="0" max="10" enabled="no"></o-integer-input>
+      <o-list-picker class="input-padding" attr="CUSTOMERID" label="CUSTOMER" entity="customer" service="customers" value-column="CUSTOMERID"
+      columns="CUSTOMERID;ID;PHOTO;NAME;SURNAME;STARTDATE;EMAIL" visible-columns="NAME;SURNAME" read-only="no" required="yes" fxFlex="20"></o-list-picker>
     </o-row>
     <o-row>
-      <o-text-input class="input-padding" attr="INVOICE_NAME" label="INVOICE_NAME" sql-type="STRING" fxFlex="40" clear-button="yes"></o-text-input>
+      <o-text-input class="input-padding" attr="INVOICE_NAME" label="INVOICE_NAME" sql-type="STRING" fxFlex="20" clear-button="yes"></o-text-input>
       <!-- <o-text-input class="input-padding" attr="INVOICE_FILE" label="INVOICE_FILE" fxFlex="40" sql-type="STRING" clear-button="yes"></o-text-input> -->
       <o-currency-input class="input-padding" attr="AMOUNT" label="AMOUNT" min-decimal-digits="2" max-decimal-digits="2"
       sql-type="DOUBLE" clear-button="yes"></o-currency-input>
     </o-row>
     <o-row>
-      <o-file-input attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
+      <o-file-input class="input-padding" attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
       read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
       (change)="onUploadFile($event)" additional-data="prueba"></o-file-input>
+      <o-button class="input-padding" attr="raised_button" type="RAISED" icon="save_alt" (click)="onClick($event)"></o-button>
     </o-row>
     <o-row>
-      <o-list-picker attr="INVOICESTYPEID" class="input-padding" fxFlex="20" service="invoices" 
-      entity="invoicesType" keys="INVOICESTYPEID" columns="INVOICESTYPEID;INVOICESTYPENAME" 
-      visible-columns="INVOICESTYPENAME" value-column="INVOICESTYPEID"></o-list-picker>
-    </o-row>   
+      <o-text-input class="input-padding" attr="INVOICE_FILE_URL" label="INVOICE_FILE_URL" sql-type="STRING" fxFlex="40" 
+      clear-button="yes" enabled="yes" fxFlex="82"></o-text-input>
+    </o-row>
   </o-column>

@@ -1,4 +1,4 @@
-import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation, ViewChild } from '@angular/core';
+import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation, ViewChild, OnInit, AfterContentInit } from '@angular/core';
 import { dataServiceFactory, OFormComponent, OntimizeService } from 'ontimize-web-ngx';
 import { ActivatedRoute, Router, ChildActivationEnd } from '@angular/router';
 import { OFileInputComponent } from 'ontimize-web-ngx/ontimize/components/input/file-input/o-file-input.component';
@@ -27,13 +27,12 @@ import { OFileInputComponent } from 'ontimize-web-ngx/ontimize/components/input/
     '[class.fill]': 'layoutFill'
   },
 })
-export class InvoicesDetailFormComponent extends OFormComponent {
+export class InvoicesDetailFormComponent extends OFormComponent implements OnInit, AfterContentInit {
   protected recaptchaResponseToken: string;
 
   @ViewChild(OFileInputComponent) child;
-
   invoiceId: any;
-  constructor(
+  constructor( 
     _actRoute: ActivatedRoute, _zone: NgZone,
     _router: Router, cd: ChangeDetectorRef,
     injector: Injector,elRef: ElementRef) {
@@ -65,9 +64,15 @@ export class InvoicesDetailFormComponent extends OFormComponent {
       console.log("invice id: " + this.invoiceId);
 
       this.child.uploader.data = {invoiceId: this.invoiceId};
-      
-
-
   }
 
+  ngAfterContentInit() {
+     document.querySelector('button.mat-raised-button.mat-icon-button.ng-star-inserted').setAttribute("style", "display: none");
+  }
+  //document.querySelector('button.mat-raised-button.mat-icon-button.ng-star-inserted').setAttribute("style", "display: none");
+  //document.querySelector('.mat-raised-button.mat-icon-button.ng-star-inserted').style = 'display: none'
+
+  onClick(event) {
+    window.open(this.getFieldValue("INVOICE_FILE_URL"))
+  }
 }

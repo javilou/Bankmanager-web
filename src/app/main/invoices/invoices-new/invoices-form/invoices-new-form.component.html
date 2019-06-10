@@ -34,7 +34,6 @@
             sql-type="DOUBLE" clear-button="yes"></o-currency-input>
           </o-row>
           <o-row>
-            <!-- <o-integer-input attr="INVOICE_FILE_ID" label="INVOICE_FILE_ID" sql-type="INTEGER"></o-integer-input> -->
             <o-file-input attr="file" service="invoices" entity="upload" label="{{ 'INPUT_FILE' | oTranslate }}" 
             read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
             (change)="onUploadFile($event)"></o-file-input>

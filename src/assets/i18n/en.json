@@ -62,5 +62,8 @@
   "INVOICE_FILE": "Invoice's file",
   "AMOUNT": "Amount",
   "INPUT_FILE": "Amount file",
-  "INVOICE_FILE_ID": "Invoice file ID"
+  "INVOICE_FILE_URL": "Download´s URL",
+  "DOWNLOAD_FILE": "Download invoice",
+  "CUSTOMER": "Customer",
+  "INVOICESID": "Invoice´s ID"
  }

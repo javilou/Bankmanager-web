@@ -63,5 +63,8 @@
   "INVOICE_FILE": "Factura",
   "AMOUNT": "Importe",
   "INPUT_FILE": "Factura",
-  "INVOICE_FILE_ID": "ID de la factura"
+  "INVOICE_FILE_URL": "URL de descarga",
+  "DOWNLOAD_FILE": "Descargar factura",
+  "CUSTOMER": "Cliente",
+  "INVOICESID": "ID del gasto"
  }
