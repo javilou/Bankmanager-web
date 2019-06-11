@@ -9,7 +9,8 @@ import { OFileManagerModule } from 'ontimize-web-ngx-filemanager';
 
 @NgModule({
   imports: [
-    OFileManagerModule
+    OFileManagerModule,
+    
   ]
 })
 
