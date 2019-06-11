@@ -1,9 +1,7 @@
-import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation, ViewChild, OnInit, AfterContentInit } from '@angular/core';
+import { forwardRef, Injector, ChangeDetectorRef, NgZone, ElementRef, Component, ViewEncapsulation, ViewChild, OnInit } from '@angular/core';
 import { dataServiceFactory, OFormComponent, OntimizeService } from 'ontimize-web-ngx';
 import { ActivatedRoute, Router, ChildActivationEnd } from '@angular/router';
 import { OFileInputComponent } from 'ontimize-web-ngx/ontimize/components/input/file-input/o-file-input.component';
-
-
 
 @Component({
   selector: 'app-invoices-detail-form',
@@ -27,11 +25,12 @@ import { OFileInputComponent } from 'ontimize-web-ngx/ontimize/components/input/
     '[class.fill]': 'layoutFill'
   },
 })
-export class InvoicesDetailFormComponent extends OFormComponent implements OnInit, AfterContentInit {
+export class InvoicesDetailFormComponent extends OFormComponent implements OnInit {
   protected recaptchaResponseToken: string;
 
   @ViewChild(OFileInputComponent) child;
   invoiceId: any;
+  regExp : RegExp = /(.*content\/)(.*)(\?.*)/;
   constructor( 
     _actRoute: ActivatedRoute, _zone: NgZone,
     _router: Router, cd: ChangeDetectorRef,
@@ -63,16 +62,36 @@ export class InvoicesDetailFormComponent extends OFormComponent implements OnIni
       this.invoiceId = this.getFieldValue("INVOICESID");
       console.log("invice id: " + this.invoiceId);
 
+      const url : String = this.getFieldValue("INVOICE_FILE_URL");
+      const fileName = url.replace(this.regExp, '$2');
+      console.log(fileName);
+
       this.child.uploader.data = {invoiceId: this.invoiceId};
   }
 
-  ngAfterContentInit() {
-     document.querySelector('button.mat-raised-button.mat-icon-button.ng-star-inserted').setAttribute("style", "display: none");
+  ngAfterViewChecked() {
+    //document.querySelector('button.mat-raised-button.mat-icon-button.ng-star-inserted').setAttribute("style", "display: none");
+    //const url : String = this.getFieldValue("INVOICE_FILE_URL");
+    //const fileName = url.replace(this.regExp, '$1');
+    //console.log(fileName);
+    //this.setFieldValue();
   }
-  //document.querySelector('button.mat-raised-button.mat-icon-button.ng-star-inserted').setAttribute("style", "display: none");
-  //document.querySelector('.mat-raised-button.mat-icon-button.ng-star-inserted').style = 'display: none'
+
+  getFileName(str : String) {
+    const fileName = str.replace(this.regExp, '$1');
+    console.log(fileName);
+    return fileName;
+  }
+
+  setNombreLabel(){
+
+  }
 
   onClick(event) {
     window.open(this.getFieldValue("INVOICE_FILE_URL"))
+  }
+
+  ngOnInit() {
+    super.ngOnInit();
   }
 }

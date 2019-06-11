@@ -16,9 +16,10 @@
       read-only="no" accept=".txt,.doc,.jpg,.png" max-file-size="100000000" multiple="yes" 
       (change)="onUploadFile($event)" additional-data="prueba"></o-file-input>
       <o-button class="input-padding" attr="raised_button" type="RAISED" icon="save_alt" (click)="onClick($event)"></o-button>
+      <h5 class="input-padding" attr="NOMBRE_ARCHIVO">Titulo del archivo subido</h5>
     </o-row>
     <o-row>
       <o-text-input class="input-padding" attr="INVOICE_FILE_URL" label="INVOICE_FILE_URL" sql-type="STRING" fxFlex="40" 
-      clear-button="yes" enabled="yes" fxFlex="82"></o-text-input>
+      clear-button="yes" enabled="yes" fxFlex="82"></o-text-input> 
     </o-row>
   </o-column>

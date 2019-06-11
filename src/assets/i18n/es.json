@@ -66,5 +66,6 @@
   "INVOICE_FILE_URL": "URL de descarga",
   "DOWNLOAD_FILE": "Descargar factura",
   "CUSTOMER": "Cliente",
-  "INVOICESID": "ID del gasto"
+  "INVOICESID": "ID del gasto",
+  "FILE MANAGER": "Administrador de Archivos"
  }

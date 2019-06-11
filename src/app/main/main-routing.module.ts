@@ -9,6 +9,7 @@ import { EmployeesModule } from './employees/employees.module';
 import { BranchesModule } from './branches/branches.module';
 import { AccountsModule } from './accounts/accounts.module';
 import { InvoicesModule } from './invoices/invoices.module';
+import { FileManagerModule } from './file-manager/file-manager.module';
 
 export function loadHomeModule() {
  return HomeModule;
@@ -34,6 +35,10 @@ export function loadInvoicesModule(){
   return InvoicesModule;
 }
 
+export function loadFileManagerModule(){
+  return FileManagerModule;
+}
+
 export const routes: Routes = [
   {
     path: '',
@@ -46,7 +51,8 @@ export const routes: Routes = [
       { path: 'employees', loadChildren: loadEmployeesModule },
       { path: 'branches', loadChildren: loadBranchesModule },
       { path: 'accounts', loadChildren: loadAccountsModule },
-      { path: 'invoices', loadChildren: loadInvoicesModule }
+      { path: 'invoices', loadChildren: loadInvoicesModule },
+      { path: 'file-manager', loadChildren: loadFileManagerModule }
     ]
   }
 ];
